@@ -118,3 +118,77 @@ nav ul {
     font-size: 16px;
     line-height: 30px;
 }
+   
+
+    /* features */
+.features h2 {
+    text-align: right;
+    color: #232323;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    opacity: 1%;
+    padding-top: 15px;
+}
+        /* Boxes */
+.boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 84.8px;
+}
+#notification, #file, #message, #profile, #webinar, #calender {
+    width: 283px;
+    height: 283px;
+    border-radius: 15px;
+    padding: 77.1px 41.4px 75.68px 37.83px;
+    box-sizing: border-box; 
+}
+    /* notification */
+#notification {
+    background-color: #6B76FF;
+    box-shadow: #6B76FF; 
+    margin-left: 168.72px;
+}
+#notification, #profile {
+    margin-left: 168.72px;
+}
+#message, #calender {
+    margin-right: 168.72px;
+}
+#notification img, #file img, #message img, #profile img, #webinar img, #calender img {
+    opacity: 100%;
+    width: 28px;
+    height: 34px;
+    position: relative;
+    padding-left: 45%;
+}
+#notification h3, #notification h4 {
+    color: #FFFFFF;
+    font-family: arila;   
+}
+#notification h3, #file h3, #message h3, #profile h3, #webinar h3, #calender h3 {
+    font-size: 20px;
+    text-align: center; 
+}
+#notification h4, #file h4, #message h4, #profile h4, #webinar h4, #calender h4 {
+    font-size: 14px;
+    text-align: center; 
+}
+    /* file */
+#file, #message, #profile, #webinar, #calender {
+    box-shadow: 0px 0px 10px  #6b76ff66;
+    color: #787878;
+}
+    /* Message */
+#message img {
+    width: 28px;
+    height: 25px;
+}
+
+
+/* #testimonials {
+    width: 1366px;
+    height: 585px;
+    background-color: #002084;
+    padding-top: 58.63;
+} */
